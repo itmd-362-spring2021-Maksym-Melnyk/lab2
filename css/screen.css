@@ -1,0 +1,41 @@
+html {
+	font-family: times new roman;
+	font-size: 16px;
+	text-align: center;
+	background: mediumblue;
+    display: inline block;
+    
+}
+
+h1 {
+    font-size: 200%;
+	text-align: center;
+    color: grey;
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+
+a {
+    font-size: 50px;
+
+}
+
+
+
+@media screen and (min-width:600px){
+	#wrap  {
+	display: inline-block;
+	font-size: 150%;
+	text-align: left;
+	justify-content: left;
+	}
+    
+	h1  {
+		font-size: 300%;
+	}
+	
+	h3  {
+		font-size: 250%
+	}
+
+}
